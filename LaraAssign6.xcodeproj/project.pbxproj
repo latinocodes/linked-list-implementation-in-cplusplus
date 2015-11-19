@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82D374811BEC53B000A4154C /* LaraAssign6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82D374801BEC53B000A4154C /* LaraAssign6.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82D374741BEC537C00A4154C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		82D374761BEC537C00A4154C /* LaraAssign6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LaraAssign6; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D374801BEC53B000A4154C /* LaraAssign6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LaraAssign6.cpp; sourceTree = "<group>"; };
+		82D374871BEC5AE800A4154C /* CHARGES.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = CHARGES.txt; path = "../../../../../Library/Developer/Xcode/DerivedData/LaraAssign6-hctndlbwtxlbexepasprwrwluibg/Build/Products/Debug/CHARGES.txt"; sourceTree = "<group>"; };
+		82D374881BEC5AEE00A4154C /* LISTING.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LISTING.txt; path = "../../../../../Library/Developer/Xcode/DerivedData/LaraAssign6-hctndlbwtxlbexepasprwrwluibg/Build/Products/Debug/LISTING.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82D374731BEC537C00A4154C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82D3746D1BEC537C00A4154C = {
+			isa = PBXGroup;
+			children = (
+				82D374781BEC537C00A4154C /* LaraAssign6 */,
+				82D374771BEC537C00A4154C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82D374771BEC537C00A4154C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D374761BEC537C00A4154C /* LaraAssign6 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82D374781BEC537C00A4154C /* LaraAssign6 */ = {
+			isa = PBXGroup;
+			children = (
+				82D374871BEC5AE800A4154C /* CHARGES.txt */,
+				82D374881BEC5AEE00A4154C /* LISTING.txt */,
+				82D374801BEC53B000A4154C /* LaraAssign6.cpp */,
+			);
+			path = LaraAssign6;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82D374751BEC537C00A4154C /* LaraAssign6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D3747D1BEC537C00A4154C /* Build configuration list for PBXNativeTarget "LaraAssign6" */;
+			buildPhases = (
+				82D374721BEC537C00A4154C /* Sources */,
+				82D374731BEC537C00A4154C /* Frameworks */,
+				82D374741BEC537C00A4154C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaraAssign6;
+			productName = LaraAssign6;
+			productReference = 82D374761BEC537C00A4154C /* LaraAssign6 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82D3746E1BEC537C00A4154C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jose Lara";
+				TargetAttributes = {
+					82D374751BEC537C00A4154C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 82D374711BEC537C00A4154C /* Build configuration list for PBXProject "LaraAssign6" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82D3746D1BEC537C00A4154C;
+			productRefGroup = 82D374771BEC537C00A4154C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82D374751BEC537C00A4154C /* LaraAssign6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82D374721BEC537C00A4154C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D374811BEC53B000A4154C /* LaraAssign6.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		82D3747B1BEC537C00A4154C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82D3747C1BEC537C00A4154C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82D3747E1BEC537C00A4154C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82D3747F1BEC537C00A4154C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82D374711BEC537C00A4154C /* Build configuration list for PBXProject "LaraAssign6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D3747B1BEC537C00A4154C /* Debug */,
+				82D3747C1BEC537C00A4154C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D3747D1BEC537C00A4154C /* Build configuration list for PBXNativeTarget "LaraAssign6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D3747E1BEC537C00A4154C /* Debug */,
+				82D3747F1BEC537C00A4154C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82D3746E1BEC537C00A4154C /* Project object */;
+}
